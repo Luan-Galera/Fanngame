@@ -9,18 +9,26 @@
     <title>Jogos</title>
 </head>
 <body>
-    <header>
-        <div id="navegation">
-            <p>Download</p>
-            <p>Jogos</p>
-            <p>Sobre</p>
-        </div>
-        <div id="language">
-        <p>Português</p>
+    <header class="bg-body-secondary">
+        <img src="" alt="">
+        <div id="nav-bar">
+            <a href="index.html"><p>Download</p></a>
+            <a href="#"><p>Jogos</p></a>
+            <a href="sobre.html"><p>Sobre</p></a>
+            <select name="language" id="language">
+                <option value="Portugues">Português</option>
+                <option value="English">English</option>
+                <option value="Español">Español</option>
+            </select>
         </div>
     </header>
+
+    <div id="search" class="bg-info-subtle">
+            <input type="text" placeholder="Pesquisar...">
+            <button><i class="bi bi-search"></i></button>
+    </div>
     
-    <footer>
+    <footer class="bg-dark text-white text-center mt-5">
         <p>Desenvolvido por Luan | Todos os direitos reservados</p>
     </footer>
 </body>
