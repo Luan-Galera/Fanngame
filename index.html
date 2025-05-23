@@ -11,10 +11,23 @@
 <body>
     <header class="bg-body-secondary d-flex align-items-center justify-content-between px-4 py-2">
         <img src="img/FANNGAME.png" alt="" width="120px" height="120px">
-        <div id="nav-bar" class="d-flex align-items-center gap-5">
-            <a href="#"><p>Download</p></a>
-            <a href="jogos.html"><p>Jogos</p></a>
-            <a href="sobre.html"><p>Sobre</p></a>
+        <nav id="site-navigation" class="d-flex align-items-center gap-4">
+          <ul id="menu-principal" class="nav">
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold" href="#"
+                >Download</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold" href="jogos.html"
+                >Jogos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold" href="sobre.html">Sobre</a>
+            </li>
+          </ul>
+        </nav>
             <select name="language" id="language">
                 <option value="Portugues">Português</option>
                 <option value="English">English</option>
@@ -24,8 +37,8 @@
     </header>
 
     <div id="search" class="bg-info-subtle text-end p-2">
-            <input type="text" placeholder="Pesquisar...">
-            <button><i class="bi bi-search"></i></button>
+            <input type="text" class="rounded-pill" placeholder="Pesquisar...">
+            <button class="rounded-pill"><i class="bi bi-search"></i></button>
     </div>
 
     <div id="baixar" class="text-center">
@@ -33,12 +46,15 @@
             
             <p>Baixar agora:</p>
             <button>Baixar</button>
+        
+            <div id="aparelhos" class="">    
+                <i class="bi bi-windows"></i>
+                <p>Computador</p>
             
-            <i class="bi bi-windows"></i>
-            <p>Computador</p>
-            
-            <i class="bi bi-android"></i>
-            <p>Celular</p>
+                <i class="bi bi-android"></i>
+                <p>Celular</p>
+        
+        </div>
     </div>
     
     <div id="content" class="text-center">
