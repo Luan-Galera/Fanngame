@@ -58,6 +58,16 @@ header{
     justify-content: center;
 }
 
+#baixar i{
+    font-size: 40px;
+}
+
+
+#baixar button{
+    width: 300px;
+    font-size: 30px;
+}
+
 #criacoes i{
     justify-content: center;
     font-size: 40px;
