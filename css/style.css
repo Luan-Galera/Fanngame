@@ -68,8 +68,8 @@ header{
     margin: 10px;
     color: black;
     display: flex;
-    justify-content: center; /* alinha horizontalmente */
-    align-items: center; /* alinha verticalmente */
+    justify-content: center;
+    align-items: center;
 }
 
 #conversas i{
@@ -82,8 +82,8 @@ header{
     margin: 10px;
     color: black;
     display: flex;
-    justify-content: center; /* alinha horizontalmente */
-    align-items: center; /* alinha verticalmente */
+    justify-content: center;
+    align-items: center;
 }
 
 #divercao i{
@@ -96,8 +96,8 @@ header{
     margin: 10px;
     color: black;
     display: flex;
-    justify-content: center; /* alinha horizontalmente */
-    align-items: center; /* alinha verticalmente */
+    justify-content: center;
+    align-items: center;
 }
 
 #objetivos i{
@@ -110,8 +110,8 @@ header{
     margin: 10px;
     color: black;
     display: inline-flex;
-    justify-content: center; /* alinha horizontalmente */
-    align-items: center; /* alinha verticalmente */
+    justify-content: center;
+    align-items: center;
 }
 
 #contato i{
@@ -124,11 +124,14 @@ header{
     margin: 10px;
     color: black;
     display: inline-flex;
-    justify-content: center; /* alinha horizontalmente */
-    align-items: center; /* alinha verticalmente */
+    justify-content: center;
+    align-items: center;
 }
 
-
+#arrow{
+    color: black;
+    font-size: 100px;
+}
 
 #search-icon{
     font-size: 20px
