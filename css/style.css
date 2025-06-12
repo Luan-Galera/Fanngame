@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #4c0086;
+    font-family: "Courier Prime", monospace;
+    font-weight: 700;
+    font-style: italic;
+    font-size: larger;
+}
+#language{
+    background-color: #be69ff;
+    width: 130px;
+    height: 45px;
+    text-align: center;
+    color: white;
+}
+
+header{
+    background-color: #9000ff;
+}
+
+#search{
+    background-color: #6d00c0;
+}
+
+.dot{
+    height: 60px;
+    width: 60px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+i{
+    font-size: 40px;
+}
+
+#criacoes{
+    justify-content: center; 
+}
+
+#conversas{
+    justify-content: center; 
+}
+
+#divercao{
+    justify-content: center; 
+}
+
+#search-icon{
+    font-size: 20px
+}
+
