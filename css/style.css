@@ -9,11 +9,13 @@
 
 body{
     background-color: #4c0086;
+    color: white;
     font-family: "Courier Prime", monospace;
     font-weight: 700;
     font-style: italic;
     font-size: larger;
 }
+
 #language{
     background-color: #be69ff;
     width: 130px;
@@ -39,8 +41,9 @@ header{
     margin-right: 5px;
 }
 
-i{
-    font-size: 40px;
+#search i{
+    font-size: 15px;
+    padding: 7px;
 }
 
 #criacoes{
@@ -52,8 +55,80 @@ i{
 }
 
 #divercao{
-    justify-content: center; 
+    justify-content: center;
 }
+
+#criacoes i{
+    justify-content: center;
+    font-size: 40px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 100%;
+    margin: 10px;
+    color: black;
+    display: flex;
+    justify-content: center; /* alinha horizontalmente */
+    align-items: center; /* alinha verticalmente */
+}
+
+#conversas i{
+    justify-content: center;
+    font-size: 40px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 100%;
+    margin: 10px;
+    color: black;
+    display: flex;
+    justify-content: center; /* alinha horizontalmente */
+    align-items: center; /* alinha verticalmente */
+}
+
+#divercao i{
+    justify-content: center;
+    font-size: 40px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 100%;
+    margin: 10px;
+    color: black;
+    display: flex;
+    justify-content: center; /* alinha horizontalmente */
+    align-items: center; /* alinha verticalmente */
+}
+
+#objetivos i{
+    justify-content: center;
+    font-size: 40px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 100%;
+    margin: 10px;
+    color: black;
+    display: inline-flex;
+    justify-content: center; /* alinha horizontalmente */
+    align-items: center; /* alinha verticalmente */
+}
+
+#contato i{
+    justify-content: center;
+    font-size: 40px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 100%;
+    margin: 10px;
+    color: black;
+    display: inline-flex;
+    justify-content: center; /* alinha horizontalmente */
+    align-items: center; /* alinha verticalmente */
+}
+
+
 
 #search-icon{
     font-size: 20px
